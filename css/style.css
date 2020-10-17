@@ -1,12 +1,12 @@
 body{
   border: 1px #ccc solid;
   background-color: #F0FFFF;
+  overflow: scroll;
 }
 
 .main-container{
   width: 90%;
   margin: auto;
-  overflow: hidden;
 }
 
 a:-webkit-any-link {
