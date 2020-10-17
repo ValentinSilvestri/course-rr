@@ -1,0 +1,36 @@
+article{
+    padding: 5px;
+}
+  
+img{
+    width:100%;
+}
+  
+figure{
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+  
+  
+.news{
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+  
+.description{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: normal;
+}
+  
+.topic{
+    margin: 0px;
+    padding: 0px;
+}

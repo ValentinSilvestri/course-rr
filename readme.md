@@ -2,4 +2,4 @@
 
 ## Responsive + JS
 
-Github pages creation
+I recreated a newspaper responsive main page using CSS FlexBox.

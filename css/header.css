@@ -1,0 +1,16 @@
+header{
+    background-color: #F0FFFF;
+    font-size: larger;
+    min-height: 70px;
+}
+  
+.newspaper{
+    padding: 10px;
+    text-align: center;
+    font: Arial, Helvetica, sans-serif;
+}
+  
+.name{
+    margin: 0px;
+}
+  
