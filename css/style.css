@@ -4,6 +4,17 @@ body{
   overflow: scroll;
 }
 
+
+
+.header-nav{
+  background-color: #ddd;
+  position: fixed;
+  top: 0px;
+  right: auto;
+  left: auto;
+  width: 90%;
+}
+
 .main-container{
   width: 90%;
   margin: auto;
@@ -55,5 +66,24 @@ ol {
 @media screen and (max-width: 1060px) {
   .column.side, .column.middle {
     width: 100%;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 324px) {
+  .container{
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 324px) {
+  .container{
+    margin-top: 165px;
+  }
+}
+
+@media (max-width: 216px) {
+  .container{
+    margin-top: 210px;
   }
 }
