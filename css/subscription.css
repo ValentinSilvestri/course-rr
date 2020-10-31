@@ -1,7 +1,8 @@
 input {
     float: right;
     clear: both;
-    width: 200px;
+    max-width: 200px;
+    width:90%;
 }
 
 label {
@@ -10,6 +11,7 @@ label {
     text-align: justify;
     font-weight: normal;
     margin: 5px;
+    width: 90%;
 }
 
 #error {
@@ -101,4 +103,15 @@ label {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .input{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
