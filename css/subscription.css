@@ -110,8 +110,17 @@ label {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-height: 75px;
+        max-height: 125px;
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+#error1, #error2, #error3, #error4, #error5, #error6, #error7, #error8, #error9, #error10 {
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    display: none;
+    width: 75%;
+    margin: 10px auto 10px auto;
 }
